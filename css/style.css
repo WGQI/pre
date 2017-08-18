@@ -1,0 +1,228 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+html{
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(0,#00B7FF,#FFFFC7);
+    font-family: 'Open Sans', sans-serif;
+    color: #111;
+}
+#msg{
+    text-align: center;
+    color:#ff2f1f;
+}
+a {
+    color: #f58220;
+    font-weight: 400;
+}
+a:hover{
+    color: #ff2f1f;
+}
+.a1 {
+    color: #f58220;
+    font-weight: 400;
+}
+.a1:hover{
+    color: #ff2f1f;
+}
+
+table{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+}
+span {
+      font-weight: 300;
+      color: #f58220;
+  }
+#userSpan{
+    font-weight: 600;
+}
+i{
+    color: #f58220;
+}
+.mlogin {
+    margin: 170px auto 0;
+}
+
+.mregister {
+    margin: 80px auto 0;
+}
+
+.error {
+    margin: 40px auto 0;
+    border: 1px solid #777;
+    padding: 3px;
+    color: #fff;
+    text-align: center;
+    width: 650px;
+    background: #f58220;
+}
+
+.regtext {
+    font-size: 13px;
+    margin-top: 26px;
+    color: #111;
+}
+
+/*= КОНТЕЙНЕРЫ
+--------------------------------------------------------*/
+.container {
+    padding: 25px 16px 25px 10px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 390px;
+    height: auto;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 33px rgba(1,1,1,.33);
+    -moz-box-shadow: 0 1px 33px rgba(1,1,1,.33);
+    box-shadow: 0 1px 33px rgba(1,1,1,.33);
+    border-radius: 10px;
+}
+#personal{
+    height:93%;
+}
+#logout{
+
+}
+#welcome {
+    border-radius: 4px;
+    width: 70%;
+    height: 770px;
+    padding: 30px;
+    background: #fff;
+    margin: 20px auto 0;
+    -webkit-box-shadow: 0 1px 33px rgba(1,1,1,.33);
+    -moz-box-shadow: 0 1px 33px rgba(1,1,1,.33);
+    box-shadow: 0 1px 33px rgba(1,1,1,.33);
+}
+
+.container h1 {
+    color: #111;
+    text-align: center;
+    font-weight: 300;
+    border: 1px dashed #777;
+    margin-top: 13px;
+}
+
+.container label {
+    color: #111;
+    font-size: 14px;
+}
+
+#login {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.container form .input,.container input[type=text],.container input[type=password],.container input[type=e] {
+    background: #fbfbfb;
+    font-size: 24px;
+    line-height: 1;
+    width: 100%;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.container form .input:focus {
+    border: 1px solid #f58220;
+    -webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    -moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+}
+
+/*= КНОПКИ
+--------------------------------------------------------*/
+
+.button{
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, leftbottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top,  #faa51a, #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+    color: #fff;
+    padding: 7px 12px;
+    -webkit-border-radius:4px;
+    moz-border-radius:4px;
+    border-radius:4px;
+    float: right;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #ff2f1f;
+    background: -webkit-gradient(linear, left top, leftbottom, from(#f88e11), to(#ff2f1f));
+    background: -moz-linear-gradient(top,  #f88e11, #ff2f1f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#ff2f1f');
+}
+/*= ПОДВАЛ
+--------------------------------------------------------*/
+footer {
+    color: #111;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-2x:hover{
+    color: #ff2f1f;
+}
+.formContainer{
+    width:35%;
+    float:left;
+}
+.tableContainer{
+    width:60%;
+    float:left;
+}
+#personalTable {
+    width: 96%;
+    border-collapse: collapse;
+    border-left: 3px solid #FAA51A;
+    border-right: 3px solid #FAA51A;
+    border-bottom: 3px solid #FAA51A;
+    font-family: "Lucida Grande", sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+}
+#personalTable caption {
+    background: #FAA51A;
+    padding: 10px;
+    box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+#personalTable {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+#personalTable td, #personalTable th {
+    padding: 10px;
+}
+#personalTable th {
+    text-align: left;
+    font-size: 18px;
+}
+#personalTable tr:nth-child(2n) {
+    background: #E5E5E5;
+}
+#personalTable td:last-of-type {
+    text-align: center;
+}
+
